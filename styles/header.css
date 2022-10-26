@@ -27,8 +27,27 @@
     display: none;
     position: absolute;
     top: 100%;
+    width: 60vw;
 }
 
 .container__btn:checked ~ .list__menu {
     display: block;
+}
+
+.list__menu_title, .list__menu_item {
+    padding: 1em;
+    background-color: var(--white);
+}
+
+.list__menu_title {
+    color: var(--orange);
+    font-weight: bold;
+}
+
+.list__menu_link {
+    background: var(--blue-linear);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
 }
