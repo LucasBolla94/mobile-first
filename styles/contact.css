@@ -1,0 +1,32 @@
+.contact {
+    background: var(--white);
+    padding: 1em;
+    text-align: center;
+}
+
+.contact__title {
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 0.5em;
+}
+
+.contact__text {
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 1em;
+}
+
+.contact__email {
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 24px;
+    width: 90%;
+    text-align: center;
+}
+
+.contact__email::placeholder {
+    font-family: var(--font-main);
+    color: black;
+    background: url("../img/email.svg") no-repeat;
+
+}
