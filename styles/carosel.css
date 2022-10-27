@@ -78,3 +78,32 @@
 .desc__title img {
     margin-bottom: 0.5em;
 }
+
+.topics {
+    background: var(--blue-linear);
+    text-align: center;
+    color: var(--white);
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+}
+
+.topics__title {
+    font-weight: 300;
+    padding: 0.5em 0;
+}
+
+.topics__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.topics__list_item {
+    background: var(--orange);
+    margin: 1em 1em;
+    padding: 0.5em;
+    font-size: 14px;
+    font-weight: 300;
+}
