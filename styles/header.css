@@ -34,6 +34,10 @@
     display: block;
 }
 
+.container__btn {
+    display: none;
+}
+
 .list__menu_title, .list__menu_item {
     padding: 1em;
     background-color: var(--white);
@@ -41,7 +45,7 @@
 
 .list__menu_title {
     color: var(--orange);
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .list__menu_link {

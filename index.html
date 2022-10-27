@@ -3,15 +3,16 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>AluraBooks</title>
-        <link rel="stylesheet" href="style.css">
+        <title>BollaBooks</title>
         <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header class="header">
             <div class="container">
                 <input type="checkbox" id="menu" class="container__btn">
-                <label>
+                <label for="menu">
                     <span class="header__menu-hamburger container__image"></span>
                     <img src="img/Logo.svg" alt="Logo AluraBooks">
                 </label>
@@ -37,5 +38,115 @@
                 <a href="#"><img src="img/Usuario.svg" alt="Users" class="container__image"></a>
             </div>
         </header>
+        <section class="banner">
+            <h2 class="banner__title">Are you know for where start ?</h2>
+            <p class="banner__text">Find in our library what you need for improve yourself !</p>
+            <input type="search" class="banner__search" placeholder="Whats the next book ?">
+        </section>
+        <section class="carosel">
+            <h2 class="carosel__title">New Books</h2>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="img/ApacheKafkabook.svg"></div>
+                <div class="swiper-slide"><img src="img/Javascriptbook.svg"></div>
+                <div class="swiper-slide"><img src="img/Nodejsbook.svg"></div>
+                <div class="swiper-slide"><img src="img/Portugolbook.svg"></div>
+                ...
+                </div>
+
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+            <div class="card">
+                <!-- First Line-->
+                <div class="card__desc">
+                    <!-- First Column-->
+                    <div class="desc">
+                        <h3 class="desc__title">Maybe you want see too ...</h3>
+                        <h2 class="desc__title_book">Angular 11 and Firebase</h2>
+                        <p class="desc__text">Building App integrate with plataform !</p>
+                    </div>
+                    <!-- Second Column-->
+                    <img src="img/Angular.svg" class="desc__image">
+                </div>
+                <!-- Second Line-->
+                <div class="card__btn">
+                    <!-- First Column-->
+                    <ul class="btn">
+                        <li class="btn__item"><img src="img/Favoritos.svg"></li>
+                        <li class="btn__item"><img src="img/Compras.svg"></li>
+                    </ul>
+                    <!-- Second Column-->
+                    <a href="#" class="btn__anc">More ...</a>
+                </div>
+            </div>
+            <section class="carosel">
+                <h2 class="carosel__title">Best Sellers</h2>
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/ApacheKafkabook.svg"></div>
+                    <div class="swiper-slide"><img src="img/Javascriptbook.svg"></div>
+                    <div class="swiper-slide"><img src="img/Nodejsbook.svg"></div>
+                    <div class="swiper-slide"><img src="img/Portugolbook.svg"></div>
+                    ...
+                    </div>
+    
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                </div>
+                <div class="card">
+                    <!-- First Line-->
+                    <div class="card__desc">
+                        <!-- First Column-->
+                        <div class="desc">
+                            <h3 class="desc__title">
+                                <img src="img/star.svg">
+                                <img src="img/star.svg">
+                                <img src="img/star.svg">
+                                <img src="img/star.svg">
+                                <img src="img/star.svg">
+                            </h3>
+                            <h3 class="desc__title">Best Writer</h3>
+                            <h2 class="desc__title_book">Juliana Agarikov</h2>
+                            <p class="desc__text">Front End Programmer !</p>
+                        </div>
+                        <!-- Second Column-->
+                        <img src="img/womanperfil.svg" class="desc__image">
+                    </div>
+                    <!-- Second Line-->
+                    <div class="card__btn">
+                        <!-- First Column-->
+                        <ul class="btn">
+                            <li class="btn__item"><img src="img/Favoritos.svg"></li>
+                            <li class="btn__item"><img src="img/Compras.svg"></li>
+                        </ul>
+                        <!-- Second Column-->
+                        <a href="#" class="btn__anc">More ...</a>
+                    </div>
+                </div>
+        </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/carosel.js"></script>
     </body>
 </html>

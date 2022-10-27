@@ -1,12 +1,19 @@
 @import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carosel.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 :root {
     --color-background: #EBECEE;
     --white: #FFFFFF;
     --orange: #EB9B00;
-    --blue-linear: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%)
+    --blue-linear: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-main: 'Poppins';
 }
 
 body {
     background-color: var(--color-background);
+    font-family: var(--fonte-main);
+    font-size: 16px;
+    font-weight: 400;
 }
