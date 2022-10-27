@@ -30,3 +30,19 @@
     background: url("../img/email.svg") no-repeat;
 
 }
+
+/** Footer CSS **/
+
+hr {
+    margin: 0;
+}
+
+.footer {
+    background-color: var(--white);
+    padding: 1em;
+}
+
+.footer__link {
+    color: black;
+    text-decoration: none;
+}
