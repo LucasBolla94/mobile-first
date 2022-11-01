@@ -31,30 +31,8 @@
 
 }
 
-/** Footer CSS **/
-
-hr {
-    margin: 0;
-}
-
-.footer {
-    background-color: var(--white);
-    padding: 1em;
-}
-
-.footer__link {
-    color: black;
-    text-decoration: none;
-}
-
 @media screen and (min-width:1024px) {
     .contact {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    .contact__email {
-        width: 30%;
+        padding: 3em 0 ;
     }
 }

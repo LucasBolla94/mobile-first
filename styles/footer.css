@@ -1,0 +1,44 @@
+hr {
+    margin: 0;
+}
+
+.footer {
+    background-color: var(--white);
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__link {
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (min-width:1024px) {
+    .contact {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .contact__email {
+        width: 30%;
+    }
+    
+    .footer__list--container {
+        display: flex;
+    }
+
+    .footer__list li {
+        padding: 0.5em 3em;
+        display: flex;
+        align-items: center;
+    }
+
+    .footer__link {
+        text-decoration: none;
+        color: #474646;
+        font-size: 14px;
+        padding-left: 0.5em;
+    }
+}
