@@ -55,3 +55,70 @@
     background-clip: text;
     text-transform: uppercase;
 }
+
+.logomenu__title {
+    display: none;
+}
+
+.newmenu {
+    display: none;
+}
+
+.logomenu__image {
+    width: 100%;
+    margin-left: 1em;
+}
+
+.btn {
+    display: flex;
+}
+
+.newmenu__list {
+    display: none;
+}
+
+@media screen and (min-width:1024px) {
+    .logomenu__title, .logomenu__title--black {
+        font-family: var(--font-title);
+        font-size: 30px;
+    }
+
+    .logomenu__title {
+        font-weight: 400;
+        display: block;
+        margin-left: 0.5em;
+    }
+
+    .logomenu__title--black {
+        font-weight: 700;
+    }
+
+    .newmenu {
+        display: flex;
+        align-items: center;
+    }
+
+    .newmenu__item {
+        padding: 0 1em;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+
+    .newmenu__item--link {
+        text-decoration: none;
+        color: black;
+    }
+
+    .header__menu-hamburger {
+        display: none;
+    }
+
+    .newmenu__btn:checked ~.list__menu {
+        display: block;
+        width: auto;
+    }
+
+    .newmenu__btn {
+        display: none;
+    }
+}

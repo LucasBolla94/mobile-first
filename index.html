@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>BollaBooks</title>
+        <title>AluraBooks</title>
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
         <link rel="stylesheet" href="style.css">
@@ -14,7 +14,6 @@
                 <input type="checkbox" id="menu" class="container__btn">
                 <label for="menu">
                     <span class="header__menu-hamburger container__image"></span>
-                    <img src="img/Logo.svg" alt="Logo AluraBooks">
                 </label>
                 <ul class="list__menu">
                     <li class="list__menu_title">Categories</li>
@@ -30,8 +29,34 @@
                     <li class="list__menu_item">
                         <a href="#" class="list__menu_link">Design UX</a>
                     </li>
-                </ul>
+                </ul>    
+                <img class="logomenu__image" src="img/Logo.svg" alt="Logo AluraBooks">
+                <h1 class="logomenu__title"><b class="logomenu__title--black">Alura</b>Books</h1>
             </div>
+
+            <ul class="newmenu">
+                <input type="checkbox" id="newmenu__list" class="newmenu__btn">
+                <label for="newmenu__list">
+                    <li class="newmenu__item"><a class="newmenu__item--link">Categories</a></li>
+                </label>
+                <ul class="list__menu">
+                    <li class="list__menu_item">
+                        <a href="#" class="list__menu_link">Front-End</a>
+                    </li>
+                    <li class="list__menu_item">
+                        <a href="#" class="list__menu_link">Infraestruture</a>
+                    </li>
+                    <li class="list__menu_item">
+                        <a href="#" class="list__menu_link">Business</a>
+                    </li>
+                    <li class="list__menu_item">
+                        <a href="#" class="list__menu_link">Design UX</a>
+                    </li>
+                </ul> 
+                <li class="newmenu__item"><a href="#" class="newmenu__item--link">Favorites</a></li>
+                <li class="newmenu__item"><a href="#" class="newmenu__item--link">My Library</a></li>
+            </ul>
+
             <div class="container">
                 <a href="#"><img src="img/Favoritos.svg" alt="Favorites" class="container__image"></a>
                 <a href="#"><img src="img/Compras.svg" alt="Basket" class="container__image"></a>
@@ -158,13 +183,15 @@
         </section>
 
         <section class="contact">
-            <h2 class="contact__title">Need speak with us ?</h2>
-            <p class="contact__text">Our Support is happy to help you !</p>
+            <div class="contact__div">
+                <h2 class="contact__title">Need speak with us ?</h2>
+                <p class="contact__text">Our Support is happy to help you !</p>
+            </div>
             <input type="email" placeholder="Register your Email" class="contact__email">
         </section>
         <hr/>
         <footer class="footer">
-            <h2><a href="#" class="footer__link">Lucas Bolla</a></h2>
+            <h2><a href="https://lucasbolla.online" class="footer__link">Lucas Bolla</a></h2>
         </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>

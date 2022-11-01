@@ -2,7 +2,10 @@
 @import url("styles/banner.css");
 @import url("styles/carosel.css");
 @import url("styles/contact.css");
+@import url("styles/sectionone.css");
+@import url("styles/topics.css");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 
 :root {
     --color-background: #EBECEE;
@@ -10,6 +13,7 @@
     --orange: #EB9B00;
     --blue-linear: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --fonte-main: 'Poppins';
+    --font-title: 'Josefin Sans';
 }
 
 body {
