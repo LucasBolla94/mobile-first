@@ -17,7 +17,7 @@
 
 .banner__search {
     background-color: transparent;
-    border 1px solid var(--white);
+    border: 1px solid var(--white);
     color: var(--white);
     border-radius: 24px;
     padding: 1em;
@@ -36,5 +36,21 @@
 @media screen and (min-width:1024px) {
     .banner__search {
         width: 40%;
+    }
+}
+
+@media screen and (min-width:1728px) {
+    .banner {
+        padding: 3em 0;
+    }
+}
+
+@media screen and (min-width:1728px) {
+    .banner__search {
+        width: 25%;
+    }
+
+    .banner__search::placeholder {
+        background-position: 7em;
     }
 }

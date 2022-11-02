@@ -5,15 +5,8 @@
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
-    padding: 1em 0 0.5em 0;
+    padding: 0.5em 0;
     margin: 0.5em 0;
-}
-
-@media screen and (min-width:1024px){
-    .carosel__title {
-        padding: 2em 0 0.5em 0;
-        font-size: 26px;
-    }
 }
 
 .swiper-slide img {
@@ -27,6 +20,7 @@
 @media screen and (min-width:1024px) {
     .carosel__title {
         font-size: 26px;
+        padding: 1em 0 0.5em 0;
     }
 
     .swiper-slide img {
@@ -43,5 +37,23 @@
 
     .swiper-slide {
         margin: 1em 2em;
+    }
+}
+
+@media screen and (min-width:1728px) {
+    .carosel__title {
+        padding-bottom: 1em;
+        font-size: 32px;
+    }
+
+    .carosel__divone {
+        display: flex;
+        margin: 0 10vw 0 10vw;
+        align-items: center;
+
+    }
+    
+    .swiper {
+        width: 50%;
     }
 }

@@ -22,4 +22,5 @@ body {
     font-family: var(--fonte-main);
     font-size: 16px;
     font-weight: 400;
+    text-decoration: none;
 }
